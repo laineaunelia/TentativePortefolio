@@ -1,0 +1,129 @@
+html { 
+    background-color: black;
+    color: white;
+}
+
+.contenair {
+    height: 100%;
+    width: 70%;
+    overflow-x:hidden;
+    min-height: 100%;
+    margin: auto;
+    background: linear-gradient( black, 50%, #1F52B7);
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.navbar { 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    border-radius: 5px ;
+    width: 20%;
+    height: 20%;
+    float: right;
+    position: relative;
+    margin: 15px 110px 5px 5px;
+}
+
+a {
+    margin-left: 30px;
+    margin-bottom: 4px;
+}
+
+.presentation { 
+    width: 40%;
+    height: auto;
+    align-items: center;
+    margin-left: 15%;
+    margin-top: 5%;
+    float: left;
+    position:static ;
+}
+
+.profil {
+    margin: 0px 15px 0px 15px;
+    object-fit: cover;
+    float: left;
+}
+
+.titre { 
+    margin-left: 15px;
+    margin-right: 140px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    float: right;
+}
+
+
+p { 
+    margin: 20px 20px 20px 20px; 
+
+}
+
+aside {
+    border-radius: 5px ;
+    width: 20%;
+    height: 20%;
+    margin: 15px 110px auto 15px;
+    float: right;
+    position: relative;
+    display: block;
+    }
+
+.song {
+    border-radius: 5px ;
+    width: auto;
+    height: auto;
+    margin:auto ;
+    float: right;
+    position: relative;
+}
+
+.blog { 
+    border-radius: 10px ;
+    width: 45%;
+    height: auto;
+    align-items: center;
+    margin-left: 15%;
+    margin-top: 10px;
+    float: left;
+position: relative;
+}
+
+footer{
+    background-color: transparent;
+    margin : auto;
+    text-align: center;
+    width: 70%;
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+    background: black;
+    }
+    ::-webkit-scrollbar-thumb {
+    border: solid 0 transparent;
+    background-color: white;
+    }
+
+/* éclipse */
+
+.eclipse {
+    background: transparent;
+    width: 260px;
+    height: 235px;
+    border-top: solid 5px orange;
+    border-left: solid 5px #ffa500;
+    border-bottom: solid 0px orange;
+    border-radius: 200px;
+    box-shadow: 0 0 50px #ffa500;
+    position: absolute;
+    z-index: 1;
+    left: 41%;
+    top: 0;
+}
+
+
+

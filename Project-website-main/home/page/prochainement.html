@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>next goal</title>
+    <link href="../style/love.css" rel="stylesheet" />
+    <link
+    rel="apple-touch-icon"
+    sizes="180x180"
+    href="../home/images/apple-touch-icon.png"
+  />
+  <link
+    rel="icon"
+    type="image/png"
+    sizes="32x32"
+    href="../home/images/favicon-32x32.png"
+  />
+  <link
+    rel="icon"
+    type="image/png"
+    sizes="16x16"
+    href="../home/images/favicon-16x16.png"
+  />
+  <link rel="manifest" href="../home/images/site.webmanifest" />
+  <link
+    rel="mask-icon"
+    href="../home/images/safari-pinned-tab.svg"
+    color="#5bbad5"
+  />
+  <meta name="msapplication-TileColor" content="#da532c" />
+  <meta name="theme-color" content="#ffffff" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <a href="../index.html">
+          <img src="../images/home.png" width="80" height="80" alt="home" />
+        </a>
+      </nav>
+    </header>
+    <main>
+      <div id="parallax">
+        <div id="fenetre1">
+          <video id="background-video" autoplay loop muted>
+            <source src="../mp4/fireworks.mp4" type="video/mp4" />
+          </video>
+          <div id="bouton">
+            <p>
+            </p>
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+            <a href="#fenetre2" class="scroll"><span> Next...</span></a>
+          </div>
+        </div>
+        <div id="fenetre2">
+          <video id="video" autoplay loop muted>
+            <source src="../mp4/fire.mp4" type="video/mp4" />
+          </video>
+          <div class="contenue2">
+            <p>
+
+            </p>
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <a href="#fenetre1" class="scroll"><span>Back...</span></a>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

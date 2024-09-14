@@ -1,0 +1,11 @@
+body {
+    background-color: black;
+    overflow: hidden;
+}
+
+/* Appliquer les styles d'image */
+.rain img {
+    position: absolute;
+    pointer-events: none;
+    
+}
